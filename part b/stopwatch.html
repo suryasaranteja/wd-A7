@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body{
+            font-size:larger;
+        }
+        #cent{
+            margin: 20px 20px 20px 20px;
+        }
+
+        #watch-div{
+            padding-top: 200px;
+        }
+        #buttons{
+            padding-top: 20px;
+        }
+
+
+    </style>
+           
+</head>
+<body>
+    <center id="cent">
+    <div id="watch-div">
+    <h1>Stopwatch</h1>
+    <label id="time-display">00:00:00</label>
+    <br>
+    <br>
+    <input type="date" id="date-picker" disabled>
+    <br>
+    <div id="buttons">
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button>
+    </div>
+    </div>
+</center>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="stopwatch.js"></script>
+</body>
+</html>

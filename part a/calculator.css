@@ -1,0 +1,58 @@
+/* calculator.css */
+
+body{
+    background-image: url(cal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #main-holder {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+  }
+  
+  #calculator-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .calculator-form-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    display: none;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
+  
+  #calc-result {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
